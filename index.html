@@ -2,16 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
     <meta name="theme-color" content="#0a0a0a" />
     <meta name="description" content="DevScript - Client-side developer tools." />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/pwa-192x192.svg" />
     
+    <!-- Non-render-blocking Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9217046083630782"
+     crossorigin="anonymous"></script>
 
     <title>DevScript | 100+ Free Developer Tools</title>
 
