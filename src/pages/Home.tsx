@@ -89,11 +89,11 @@ export default function Home() {
                 </div>
                 <input
                   type="text"
-                className="block w-full pl-14 pr-4 py-5 border border-white/10 rounded-2xl leading-5 bg-[#121212]/80 backdrop-blur-xl text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent sm:text-lg transition-all"
+                  className="block w-full pl-14 pr-4 py-5 border border-white/10 rounded-2xl leading-5 bg-[#121212]/80 backdrop-blur-xl text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent sm:text-lg transition-all"
                   placeholder="Search for tools (e.g., JSON Formatter, Password Generator)..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="block w-full pl-14 pr-4 py-5 border border-white/10 rounded-2xl leading-5 bg-[#121212]/80 backdrop-blur-xl text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent sm:text-lg transition-all"
+                />
               </div>
             </div>
           </motion.div>
