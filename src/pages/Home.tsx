@@ -24,18 +24,23 @@ export default function Home() {
         <title>DevScript | 100+ Free Developer & Daily Use Tools</title>
         <meta name="title" content="DevScript | 100+ Free Developer & Daily Use Tools" />
         <meta name="description" content="An ultimate collection of 100+ free developer tools, AI utilities, and daily use scripts. Format JSON, generate passwords, calculate finances, and more. No login required." />
+        <meta name="keywords" content="developer tools, free web tools, devscript, JSON formatter, password generator, online calculators, developer utilities, base64 encoder, UUID generator, QR code generator, regex tester" />
+        <link rel="canonical" href="https://devscript.me/" />
 
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="DevScript" />
         <meta property="og:url" content="https://devscript.me/" />
         <meta property="og:title" content="DevScript | 100+ Free Developer & Daily Use Tools" />
-        <meta property="og:description" content="Access 100+ free developer tools, AI utilities, and daily use scripts instantly. Built for speed and productivity." />
+        <meta property="og:description" content="Access 100+ free, client-side developer tools instantly. No login required." />
         <meta property="og:image" content="https://devscript.me/og-image.png" />
+        <meta property="og:locale" content="en_US" />
 
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://devscript.me/" />
-        <meta property="twitter:title" content="DevScript | 100+ Free Developer & Daily Use Tools" />
-        <meta property="twitter:description" content="Access 100+ free developer tools, AI utilities, and daily use scripts instantly. Built for speed and productivity." />
-        <meta property="twitter:image" content="https://devscript.me/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@vickyiitp" />
+        <meta name="twitter:creator" content="@vickyiitp" />
+        <meta name="twitter:title" content="DevScript | Instant Developer Utilities" />
+        <meta name="twitter:description" content="A blazing fast suite of offline-ready tools for developers and creators." />
+        <meta name="twitter:image" content="https://devscript.me/og-image.png" />
 
         <script type="application/ld+json">
           {JSON.stringify({
