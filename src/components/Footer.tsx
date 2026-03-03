@@ -21,23 +21,23 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-zinc-300 tracking-wider uppercase mb-4">Categories</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Finance Tools</Link></li>
-              <li><Link to="/" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Developer Tools</Link></li>
-              <li><Link to="/" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Social Media Tools</Link></li>
-              <li><Link to="/" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Student Tools</Link></li>
+              <li><Link to="/" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Finance Tools</Link></li>
+              <li><Link to="/" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Developer Tools</Link></li>
+              <li><Link to="/" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Social Media Tools</Link></li>
+              <li><Link to="/" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Student Tools</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-zinc-300 tracking-wider uppercase mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-sm text-zinc-500 hover:text-purple-400 transition-colors">Contact Us</a></li>
+              <li><a href="#" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="text-sm text-zinc-400 hover:text-purple-400 transition-colors">Contact Us</a></li>
             </ul>
           </div>
         </div>
         <div className="mt-12 border-t border-white/10 pt-8 flex items-center justify-between">
-          <p className="text-sm text-zinc-500">
+          <p className="text-sm text-zinc-400">
             &copy; {new Date().getFullYear()} DevScript.me. All rights reserved.
           </p>
         </div>

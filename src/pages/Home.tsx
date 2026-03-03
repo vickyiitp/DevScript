@@ -84,11 +84,11 @@ export default function Home() {
                 </div>
                 <input
                   type="text"
-                  className="block w-full pl-14 pr-4 py-5 border border-white/10 rounded-2xl leading-5 bg-[#121212]/80 backdrop-blur-xl text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent sm:text-lg transition-all"
+                className="block w-full pl-14 pr-4 py-5 border border-white/10 rounded-2xl leading-5 bg-[#121212]/80 backdrop-blur-xl text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent sm:text-lg transition-all"
                   placeholder="Search for tools (e.g., JSON Formatter, Password Generator)..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                />
+                  className="block w-full pl-14 pr-4 py-5 border border-white/10 rounded-2xl leading-5 bg-[#121212]/80 backdrop-blur-xl text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent sm:text-lg transition-all"
               </div>
             </div>
           </motion.div>
@@ -98,6 +98,11 @@ export default function Home() {
       {/* Main Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" id="categories">
         <AdBanner slot="home-top" />
+
+        <div className="text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-white tracking-tight">Browse All Tools</h2>
+          <p className="mt-2 text-zinc-400 text-sm">Filter by category or search above</p>
+        </div>
         
         {/* Category Filters */}
         <div className="flex flex-wrap items-center justify-center gap-3 mb-16">

@@ -26,7 +26,7 @@ export default function ToolCard({ id, name, description, icon: Icon, category }
       
       <h3 className="text-lg font-semibold text-zinc-100 mb-2 relative z-10">{name}</h3>
       
-      <p className="text-sm text-zinc-400 mb-6 flex-grow relative z-10 opacity-80 group-hover:opacity-100 transition-opacity duration-300">{description}</p>
+      <p className="text-sm text-zinc-400 mb-6 flex-grow relative z-10">{description}</p>
       
       <div className="flex items-center text-purple-400 text-sm font-medium mt-auto relative z-10">
         Open Tool <ArrowRight size={16} className="ml-1 group-hover:translate-x-1 transition-transform" />
